@@ -1,0 +1,16 @@
+<h1>Todos os artigos!</h1>
+ 
+<ul>
+  <% @articles.each do |article| %>
+    <li>
+      <h3>
+        <%= article.title %>
+      </h3>
+      <p>
+        <%= article.text %>
+      </p>
+    </li>
+  <% end -%>
+</ul>
+
+<%= link_to 'Novo artigo', new_article_path %>
