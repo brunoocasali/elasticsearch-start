@@ -7,8 +7,12 @@ To run :
 =====
 
 Clone this repository: `git clone git@github.com:brunoocasali/elastic-rails-blog.git` 
+
 Enter in the dir: `cd elastic-rails-blog`
+
 Update the dependencies: `bundle install` 
+
 Call WebRick server: `rails server`
+
 
 and smile :)
