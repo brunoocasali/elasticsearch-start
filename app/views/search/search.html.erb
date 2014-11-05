@@ -12,10 +12,11 @@
   <% @articles.each do |article| %>
     <li>
       <h3>
-        <%= link_to article.try(:highlight).try(:title) ? article.highlight.title[0].html_safe : article.title,
+        <%= link_to article.try(:highlight).try(:title) ? 
+        	article.highlight.title[0].html_safe : article.title,
           controller: "articles",
           action: "show",
-          id: article._id%>
+          id: article._id %>
       </h3>
       <% if article.try(:highlight).try(:text) %>
         <% article.highlight.text.each do |snippet| %>

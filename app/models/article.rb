@@ -20,7 +20,17 @@ class Article < ActiveRecord::Base
 		        title: {},
 		        text: {}
 		      }
-		    }
+		    },
+				suggest: {
+					type: completion,
+          index_analyzer: simple,
+          search_analyzer: simple,
+          payloads: false,
+          fields: {
+		        title: {},
+		        text: {}
+		      }
+				}
 		  }
 		)
 	end
