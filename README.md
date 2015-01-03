@@ -6,7 +6,7 @@ This is my first app using the Elastic Search ;D
 To run :
 =====
 
-Clone this repository: `git clone git@github.com:brunoocasali/elastic-rails-blog.git` 
+Clone this repository: `git clone git@github.com:brunoocasali/elasticsearch-start.git` 
 
 Enter in the dir: `cd elastic-rails-blog`
 
